@@ -22,3 +22,11 @@ class VectorStore:
             documents=chunks,
             ids=ids
         )
+
+    def search(self, query: str, top_k: int = 3) -> list[str]:
+        results = self.collection.query(
+            query_texts=[query],
+            n_results=top_k,
+        )
+
+        return results["documents"][0]

@@ -1,0 +1,11 @@
+Arize Phoenix is an open-source AI observability platform.
+
+Phoenix provides tracing capabilities for LLM applications and helps developers inspect the execution of AI pipelines.
+
+Phoenix supports OpenTelemetry and OpenInference for collecting traces from AI applications.
+
+Retrieval-Augmented Generation, commonly called RAG, combines information retrieval with large language models.
+
+A typical RAG pipeline retrieves relevant documents from a knowledge base and provides those documents as context to an LLM.
+
+RAG evaluation measures how effectively the system retrieves relevant information and generates accurate, grounded answers.
